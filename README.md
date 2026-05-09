@@ -1,11 +1,11 @@
 # Breast-Cancer-Prediction-using-Machine-Learning
 A machine learning project to predict whether a tumor is malignant (cancerous) or benign (non-cancerous) based on cell nucleus features extracted from breast tissue images.
 
-📌 Project Objective
+# 📌 Project Objective
 
 The goal of this project is to leverage machine learning techniques to assist in the early detection and classification of breast tumors, aiding in timely diagnosis and treatment decisions. The model analyzes features derived from digitized images of fine needle aspirates (FNA) of breast masses.
 
-📂 Dataset & Features
+# 📂 Dataset & Features
 
 I have used the Wisconsin Breast Cancer Dataset (WBCD), which includes:
 
@@ -24,19 +24,19 @@ Concavity
 Concave points
 Symmetry
 Fractal dimension
-🧠 Machine Learning Pipeline
+# 🧠 Machine Learning Pipeline
 
-1. Data Collection & Preprocessing
+# 1. Data Collection & Preprocessing
 
 Handled missing values and outliers
 Normalized numerical features
 Encoded categorical values
 Applied dimensionality reduction using PCA
-2. Feature Engineering
+# 2. Feature Engineering
 
 Selected important biological and clinical features
 Collaborated with medical domain knowledge for insights
-3. Model Selection & Training
+# 3. Model Selection & Training
 
 Used binary classification algorithms like:
 Logistic Regression
@@ -45,7 +45,7 @@ Decision Tree
 Random Forest
 Neural Networks
 Tuned hyperparameters and used cross-validation
-4. Evaluation Metrics
+# 4. Evaluation Metrics
 
 Accuracy
 Precision
@@ -53,16 +53,16 @@ Recall (Sensitivity)
 F1-Score
 AUC-ROC
 Confusion Matrix analysis
-5. Model Deployment (Planned)
+# 5. Model Deployment (Planned)
 
 The model will be packaged into a deployable format for healthcare integration
 Planned GUI/web interface for ease of access by radiologists and clinicians
-📊 Results (Cross-Validation)
+# 📊 Results (Cross-Validation)
 
 Employed k-Fold Cross Validation (k=5,10)
 Achieved strong performance across all metrics
 Compared against baseline models and validated externally for robustness
-⚠️ Limitations
+# ⚠️ Limitations
 
 Potential data imbalance and demographic bias
 Interpretability concerns with complex models
