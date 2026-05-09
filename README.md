@@ -69,3 +69,10 @@ Interpretability concerns with complex models
 Limited sample size from the dataset
 Need for real-world clinical validation
 Ethical considerations (privacy, fairness, trust)
+
+
+
+Hope you find it useful!
+
+Aryan Prakash 
+Yesaryan15@gmail.com
